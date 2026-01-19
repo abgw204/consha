@@ -46,6 +46,26 @@ This project uses CMake as its build system. Follow the steps below to compile a
 *   C Compiler (GCC or Clang)
 *   CMake
 *   Make
+*   readline-devel
+
+### Dependencies
+
+This project relies on the GNU Readline library. If you encounter an error stating `readline/history.h: No such file or directory` during compilation, you must install the development libraries for your operating system.
+
+*   **Debian/Ubuntu:**
+    ```bash
+    sudo apt-get install libreadline-dev
+    ```
+
+*   **Fedora/RHEL:**
+    ```bash
+    sudo dnf install readline-devel
+    ```
+
+*   **macOS (via Homebrew):**
+    ```bash
+    brew install readline
+    ```
 
 ### Build Process
 
