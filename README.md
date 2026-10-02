@@ -4,6 +4,8 @@
 
 consha is a simple command-line interpreter (shell), developed as a custom implementation of the 42 school's minishell project. The goal of this software is to emulate bash behavior, managing processes, file descriptors, and environment manipulation.
 
+<img width="801" height="360" alt="image" src="https://github.com/user-attachments/assets/cd3c7a37-e51b-4903-8193-a8729ca7529f" />
+
 ## Features
 
 consha supports a variety of features found in modern shells, including:
